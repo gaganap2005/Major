@@ -9,3 +9,7 @@
 **/*.log
 .pytest_cache/
 python-3.12.10-amd64.exe
+
+# Generated audio and temporary files
+backend/storage/
+.pytest_cache/
