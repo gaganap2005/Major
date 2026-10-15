@@ -1,0 +1,11 @@
+.env
+.env.*
+!.env.example
+**/.venv/
+**/node_modules/
+**/dist/
+**/__pycache__/
+**/*.pyc
+**/*.log
+.pytest_cache/
+python-3.12.10-amd64.exe
