@@ -1,15 +1,23 @@
 .env
 .env.*
-!.env.example
 **/.venv/
+**/venv/
 **/node_modules/
-**/dist/
 **/__pycache__/
 **/*.pyc
 **/*.log
+**/storage/audio/
+**/dist/
+**/build/
 .pytest_cache/
-python-3.12.10-amd64.exe
 
-# Generated audio and temporary files
-backend/storage/
+# Dependencies and generated files
+**/node_modules/
+**/vite*.log
+**/*.log
+**/storage/audio/
+**/storage/summaries/
+**/.venv/
+**/venv/
+**/__pycache__/
 .pytest_cache/
